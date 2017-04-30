@@ -51,6 +51,9 @@ public class CalcScript : MonoBehaviour {
 				input2.text += number.text;
 		}}
 	void Update () {
-		
+		if (Input.GetKeyDown(KeyCode.Tab))
+		{
+			useInput2 = true;
+		}
 	}
 }
