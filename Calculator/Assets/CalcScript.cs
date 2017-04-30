@@ -15,7 +15,12 @@ public class CalcScript : MonoBehaviour {
 	void Start () {
 		
 	}
-	
+	public void Addition () {
+		number = int.Parse(input1.text) + int.Parse(input2.text);
+		print(number);
+		result.text = number.ToString();
+	}
+
 	// Update is called once per frame
 	void Update () {
 		
