@@ -12,6 +12,8 @@ public class CalcScript : MonoBehaviour {
 	int number;
 	float quotient;
 	bool useInput2 = false;
+	int random;
+	public Text random1;
 	
 	void Start () {
 		
@@ -46,7 +48,6 @@ public class CalcScript : MonoBehaviour {
 		else {
 				input2.text += number.text;
 		}}
-		}
 	void Update () {
 		
 	}
