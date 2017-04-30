@@ -27,9 +27,9 @@ public class CalcScript : MonoBehaviour {
 		result.text = number.ToString();
 	}
 	public void Division () {
-		number = int.Parse(input1.text) / int.Parse(input2.text);
-		print(number); 
-		result.text = number.ToString();
+		quotient = float.Parse(input1.text) / float.Parse(input2.text);
+		print(quotient); 
+		result.text = quotient.ToString();
 	}
 	public void Multiplication () {
 		number = int.Parse(input1.text) * int.Parse(input2.text);
