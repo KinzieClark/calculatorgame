@@ -14,6 +14,7 @@ public class CalcScript : MonoBehaviour {
 	bool useInput2 = false;
 	int random;
 	public Text random1;
+	public int[] values; 
 	
 	void Start () {
 		random = Random.Range(1,10);
@@ -61,7 +62,10 @@ public class CalcScript : MonoBehaviour {
 			useInput2 = true;
 		}
 	}
-	void OnTriggerEnter (Collider random1) {
+	public void OnTriggerEnter (Collider random1) {
         Destroy(random1.gameObject);
     }
+	public void CheckArray () {
+
+	}
 }
