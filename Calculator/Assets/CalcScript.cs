@@ -37,6 +37,15 @@ public class CalcScript : MonoBehaviour {
 		result.text = number.ToString();
 	}
 	public void NumberButtons () {
+		Text number= gameObject.GetComponentInChildren<Text>();
+		print(number.text);
+		if (useInput2 == false)
+			{
+				input1.text += number.text;
+			}
+		else {
+				input2.text += number.text;
+		}}
 		}
 	void Update () {
 		
