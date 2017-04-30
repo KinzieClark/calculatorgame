@@ -12,7 +12,6 @@ public class CalcScript : MonoBehaviour {
 	int number;
 	float quotient;
 	
-	// Use this for initialization
 	void Start () {
 		
 	}
@@ -36,7 +35,8 @@ public class CalcScript : MonoBehaviour {
 		print(number);
 		result.text = number.ToString();
 	}
-	// Update is called once per frame
+	public void NumberButtons () {
+		}
 	void Update () {
 		
 	}
