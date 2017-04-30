@@ -21,26 +21,31 @@ public class CalcScript : MonoBehaviour {
 		print(random);
 	}
 	public void Addition () {
+		gameObject.GetComponent<Button>().interactable = false;
 		number = int.Parse(input1.text) + int.Parse(input2.text);
 		print(number);
 		result.text = number.ToString();
 	}
 	public void Subtraction () {
+		gameObject.GetComponent<Button>().interactable = false;
 		number = int.Parse(input1.text) - int.Parse(input2.text);
 		print(number);
 		result.text = number.ToString();
 	}
 	public void Division () {
+		gameObject.GetComponent<Button>().interactable = false;
 		quotient = float.Parse(input1.text) / float.Parse(input2.text);
 		print(quotient); 
 		result.text = quotient.ToString();
 	}
 	public void Multiplication () {
+		gameObject.GetComponent<Button>().interactable = false;
 		number = int.Parse(input1.text) * int.Parse(input2.text);
 		print(number);
 		result.text = number.ToString();
 	}
 	public void NumberButtons () {
+		gameObject.GetComponent<Button>().interactable = false;
 		Text number= gameObject.GetComponentInChildren<Text>();
 		print(number.text);
 		if (useInput2 == false)
