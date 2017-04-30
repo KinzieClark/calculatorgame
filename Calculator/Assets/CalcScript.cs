@@ -30,6 +30,11 @@ public class CalcScript : MonoBehaviour {
 		print(number); 
 		result.text = number.ToString();
 	}
+	public void Multiplication () {
+		number = int.Parse(input1.text) * int.Parse(input2.text);
+		print(number);
+		result.text = number.ToString();
+	}
 	// Update is called once per frame
 	void Update () {
 		
