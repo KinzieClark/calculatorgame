@@ -61,4 +61,7 @@ public class CalcScript : MonoBehaviour {
 			useInput2 = true;
 		}
 	}
+	void OnTriggerEnter (Collider random1) {
+        Destroy(random1.gameObject);
+    }
 }
