@@ -16,7 +16,9 @@ public class CalcScript : MonoBehaviour {
 	public Text random1;
 	
 	void Start () {
-		
+		random = Random.Range(1,10);
+		random1.text = random.ToString();
+		print(random);
 	}
 	public void Addition () {
 		number = int.Parse(input1.text) + int.Parse(input2.text);
