@@ -11,6 +11,7 @@ public class CalcScript : MonoBehaviour {
 	public Text result;
 	int number;
 	float quotient;
+	bool useInput2 = false;
 	
 	void Start () {
 		
