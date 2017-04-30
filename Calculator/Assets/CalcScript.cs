@@ -10,6 +10,7 @@ public class CalcScript : MonoBehaviour {
 	public InputField input2;
 	public Text result;
 	int number;
+	float quotient;
 	
 	// Use this for initialization
 	void Start () {
