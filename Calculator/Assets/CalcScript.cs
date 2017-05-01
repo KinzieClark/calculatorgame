@@ -66,9 +66,9 @@ public class CalcScript : MonoBehaviour {
         Application.LoadLevel("GameOver");
     }
 	public void DestroyNumbers () {
-		if (result = random1)
+		if (result.text == random1.text)
 		{
-			Destroy(random1.gameObject);
+			Destroy(random1);
 		}
 	}
 }
