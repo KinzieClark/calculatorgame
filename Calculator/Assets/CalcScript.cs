@@ -63,7 +63,7 @@ public class CalcScript : MonoBehaviour {
 		}
 	}
 	public void OnTriggerEnter (Collider random1) {
-        Application.Quit();
+        Application.LoadLevel("GameOver");
     }
 	public void DestroyNumbers () {
 		if (result = random1)
