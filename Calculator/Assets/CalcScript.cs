@@ -63,9 +63,12 @@ public class CalcScript : MonoBehaviour {
 		}
 	}
 	public void OnTriggerEnter (Collider random1) {
-        Destroy(random1.gameObject);
+        Application.Quit();
     }
-	public void CheckArray () {
-
+	public void DestroyNumbers () {
+		if (result = random1)
+		{
+			Destroy(random1.gameObject);
+		}
 	}
 }
