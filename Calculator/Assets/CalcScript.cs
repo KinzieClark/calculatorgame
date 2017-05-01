@@ -68,13 +68,7 @@ public class CalcScript : MonoBehaviour {
 	public void NumberDestroy () {
 		result.text = result.ToString();
 		random1.text = random1.ToString();
-		if (result == random1)
-		{
-			Destroy(random1.gameObject);
-		}
-	}
-	public void DestroyNumbers () {
-		foreach (int result in values)
+		if (result.text == random1.text)
 		{
 			Destroy(random1.gameObject);
 		}
