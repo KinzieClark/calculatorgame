@@ -14,9 +14,6 @@ public class CalcScript : MonoBehaviour {
 	bool useInput2 = false;
 	int random;
 	public Text random1;
-	public Text random2;
-	public Text random3;
-	public Text random4;
 	public int[] values; 
 	
 	void Start () {
@@ -76,7 +73,7 @@ public class CalcScript : MonoBehaviour {
 			Destroy(random1.gameObject);
 		}
 	}
-	public void DestroyNumbers () { //This is where I'm having trouble. Logically, this should work, but no dice so far
+	public void DestroyNumbers () {
 		foreach (int result in values)
 		{
 			Destroy(random1.gameObject);
